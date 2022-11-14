@@ -1,3 +1,12 @@
-import keyword
-
-print(keyword)
+#자료저장 형태 변경하기
+a = input("a의 값을 입력하세요 : ")
+b = input("b의 값을 입력하세요 : ")
+c = bool(input("c의 값을 입력하세요 : "))
+print(type(a))
+print(type(b))
+print(type(c))
+a = int(a)
+b = float(b)
+print(type(a))
+print(type(b))
+print(type(c))
